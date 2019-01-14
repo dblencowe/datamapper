@@ -1,8 +1,8 @@
 <?php
 
-namespace Dblencowe\DataMapper\Model;
+namespace Dblencowe\DataMapper\Entity;
 
-abstract class Model
+abstract class Entity
 {
     protected static $map = [];
 

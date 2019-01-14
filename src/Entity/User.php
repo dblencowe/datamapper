@@ -1,8 +1,8 @@
 <?php
 
-namespace Dblencowe\DataMapper\Model;
+namespace Dblencowe\DataMapper\Entity;
 
-class User extends Model
+class User extends Entity
 {
     protected $id;
     protected $username;
