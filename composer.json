@@ -1,0 +1,24 @@
+{
+    "name": "dblencowe/datamapper",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dave Blencowe",
+            "email": "dave.blencowe@thejust-group.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dblencowe\\DataMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dblencowe\\DataMapper\\Test\\": "test/"
+        }
+    }
+}
